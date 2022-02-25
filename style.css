@@ -1,0 +1,115 @@
+/*Colors and fonts*/
+
+body {
+ background-color: white;
+ color:black;
+ font-family: calibri;
+ border-radius: 4px;
+ width: 900px;
+ padding-left: 70px auto;
+ padding-right: 70px auto;
+ text-align: center;
+}
+
+h1 {
+ color:rgb(250, 25, 115); 
+ font-family: 'Dancing Script', cursive;
+ font-weight: 100;
+ letter-spacing: 5px;
+ font-size: 90px;
+ width:900px;
+ margin: 40px auto;
+ border-radius: 4px;
+ padding-top: 20px;
+ padding-left: 70px auto;
+ padding-right: 70px auto;
+ text-align: center;
+
+}
+
+  #noemie {
+  width: 170px;
+  padding-top: 20px;
+}
+
+  #guadeloupe {
+  width: 175px;
+}
+
+  #ieseg {
+  width: 234px;
+}
+
+  #oviedo {
+  width: 155px;
+}
+
+h2 {
+  color: green;
+  font-family: calibri;
+  font-size: 20px;
+  text-align: center;
+}
+
+  a {
+    text-decoration: none;
+    color:green;
+}
+
+  a:hover {
+  color:rgb(250, 25, 115);
+}
+
+/* Custom deesign with class */
+
+.container {
+  width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+  @media (max-width: 720px) {
+
+   .container {
+    width:500px;
+    text-align: center;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30pxrgba(0,0,0,0.1)
+  border-radius: 4px;
+  margin:20px 0px;
+  text-align: center;
+}
+
+.btn-green {
+  background-color: rgb(250, 197, 25)
+  color: black;
+  padding: 15px 20px;
+  border-radius: 4px;
+    }
+ .btn-green: hover {
+  background-color: green;
+  color: black;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+    }
+ .list-inline li {
+  display: inline;
+  padding: 10px;
+    }
+ .list-inline i: hover {
+  font-size: 10px;
+}
+
+/* Design adjustment using id */
+
+#introduction p {
+    margin-bottom: 40px;
+}
